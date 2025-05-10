@@ -275,6 +275,10 @@ a:hover {
     transition: 0.3s;
 }
 
+.card:hover {
+    filter: unset;
+}
+
 .card:hover > .card-wrapper::before {
     opacity: 1;
     width: 350px;
